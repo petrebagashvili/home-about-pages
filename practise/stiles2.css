@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 113px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+
+.header-texts{
+    padding-left: 45%;
+    display: flex;
+    gap: 30px;
+}
+.header-text1{
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.header-text1:hover{
+    color: #333D4B;
+}
+.page1{
+    padding-top: 135px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 86px;
+    padding-bottom: 87px;
+    background-image: url(./IMG/Bitmap.svg);
+    border-radius: 10px;
+}
+.page1-text1{
+
+    color: #FEFCF7;
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px; 
+    padding-bottom: 24px;
+}
+.page1-text2{
+    width: 445px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    padding-bottom: 135px;
+}
+.page2{
+    padding-top: 168px;
+    width: 100%;
+    padding-left: 85px;
+    padding-right: 85px;
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+    padding-bottom: 244px;
+}
+.page2-img{
+    width: 445px;
+    height: 520px;
+    border-radius: 8px;
+    background: #0E8784;
+}
+.page2-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+.page2-text1{
+    color: #333D4B;
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px; 
+}
+.page2-text2{
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 540px;
+}
+.page3{
+    width: 100%;
+    padding-left: 85px;
+    padding-right: 85px;
+    display: flex;
+    flex-direction: row;
+    height: 474px;
+    gap: 92px;
+    border-radius: 10px;
+    background: #2C343E;
+}
+.page3-img{
+    position: relative;
+    top: -88px;
+    width: 445px;
+    height: 474px;
+    border-radius: 8px;
+    background: #0E8784;
+}
+.page3-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+.page3-text1{
+    color: #FEFCF7;
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px; 
+}
+.page3-text2{
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 540px;
+    opacity: 0.8;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 85px;
+    padding-right: 85px;
+    height: 120px;
+    background-color:  #2C343E;
+}
+.footer-image{
+    color: #FEFCF7;
+    display: flex;
+    align-items: flex-start;
+    padding-right: 103px;
+}
+.footer-texts{
+    display: flex;
+    width: 282px;
+    justify-content: space-between;
+}
+.footer-text1{
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.page4{
+    display: flex;
+    flex-direction: column;
+    padding-left: 85px;
+    padding-top: 168px;
+    padding-bottom: 168px;
+    gap: 72px;
+}
+.page4-text1{
+    color: #83888F;
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; 
+}
+.page4-boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 108px;
+}
+.page4-box{
+    display: flex;
+    flex-direction: column;
+    width: 272px;
+}
+.page4-box-text1{
+    padding-top: 46px;
+    color: #333D4B;
+    font-family: "Fraunces 9pt";
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px; 
+}
+.page4-box-text2{
+    padding-top: 24px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.footer-text1:hover{
+    color: #FEFCF7;
+}
+.footer-icon{
+    padding-left: 25%;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.logos:hover{
+    fill: #FDD6BA;
+    transition: fill 0.3s ease;
+}
