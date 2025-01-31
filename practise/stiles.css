@@ -50,7 +50,7 @@ body{
     flex-direction: column;
     padding-left: 86px;
     padding-bottom: 87px;
-    background-image: url(./Bitmap.svg);
+    background-image: url(./IMG/Bitmap.svg);
     border-radius: 10px;
 }
 .page1-text1{
